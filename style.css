@@ -1,0 +1,112 @@
+
+body{
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(72, 170, 170); */
+    background:url(./images/library.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    padding: 50px;
+}
+
+
+.main{
+    height: 720px;
+    max-width: 950px;
+    width: 100%;
+    margin: auto;
+    background: rgba(3, 3, 3, 0.719);
+    padding: 25px 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* 3D effect */
+.main{
+    filter: blur(0.4px);
+    box-shadow:
+
+    /* bottom */
+    0px 20px 20px rgba(246, 222, 5, 0.301),
+    0px 5px 10px rgba(246, 222, 5, 0.301),
+
+    /* long bottom */
+    0px 70px 50px rgba(246, 222, 5, 0.301),
+    
+
+    /* right */
+    30px 50px 50px rgba(246, 222, 5, 0.301),
+   
+
+    /* left  */
+    -30px 50px 50px rgba(246, 222, 5, 0.301);
+}
+
+
+
+.searchForm{
+
+    /* display: flex;
+    justify-content: space-around;
+    padding: 20px; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 100px; */
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input{
+    height: 23.5px;
+    padding-bottom: 5px;
+    padding-top: 5px; 
+}
+
+/* .searchBtn{
+    height: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px; 
+} */
+
+
+.header h1{
+    color: wheat ;
+    /* margin-top: 30px;
+    margin-right: 250px; */
+    font-size: 50px;
+    text-align:center;
+
+}
+
+.header h3{
+    color: wheat ;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(228, 228, 227);
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+.searchResults{
+
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    flex-direction: row;
+    /* margin: 100px; */
+    justify-content: space-evenly;
+
+}
